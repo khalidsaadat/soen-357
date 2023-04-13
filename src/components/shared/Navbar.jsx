@@ -17,13 +17,13 @@ function Navbar(props) {
                 </div>
                 <div className="flex items-center md:order-2 gap-6 text-lg" id="profile_dropdown">
                     <div>
-                        <Link to="/reciept">
-                            Receipt
+                        <Link to="/Login">
+                            Login
                         </Link>
                     </div>
                     <div>
-                        <Link to="/gallery">
-                            Gallery
+                        <Link to="/Signup">
+                            Sign up 
                         </Link>
                     </div>
                 </div>
