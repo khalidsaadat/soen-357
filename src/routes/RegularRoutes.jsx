@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import "../static/css/login.css";
 import Home from '../pages/Home'
 import Login from '../pages/Login'
 import Navbar from '../components/shared/Navbar';
-import "../static/css/login.css";
-import Signup from '../pages/Signup'
+import Signup from '../pages/Signup';
+import Profile from "../pages/Profile";
 
 function RegularRoutes() {
   return (
@@ -14,7 +15,8 @@ function RegularRoutes() {
         <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/Signup" element={<Signup/>} />
+            <Route path="/signup" element={<Signup/>} />
+            <Route path="/profile" element={<Profile/>} />
         </Routes>
     </div>
   );

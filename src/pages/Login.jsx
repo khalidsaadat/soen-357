@@ -9,6 +9,9 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    localStorage.setItem("loggedIn", 1);
+    
     navigate("/");
   };
 
