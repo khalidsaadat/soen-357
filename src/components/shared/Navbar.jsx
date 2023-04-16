@@ -64,6 +64,12 @@ function Navbar(props) {
                             </Link>
                         </div>
                         <div>
+                            <Link to="/track">
+                                Track
+                            </Link>
+                        </div>
+                        
+                        <div>
                             <a href='#' onClick={logout} >
                                 Logout
                             </a>

@@ -1,0 +1,78 @@
+.bg{
+
+    background-color: #E9DDF9;
+
+}
+.wb{
+
+    background-color: white;
+    height: 400px;
+    width: 900px;
+
+    border-radius: 25px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+
+}
+
+.ident{
+    text-indent: 3em;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.ident2{
+    text-indent: 3em;
+    font-size: 20px;
+}
+
+.button{
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    cursor: pointer;
+
+    position:relative;
+top: -100px;
+}
+
+.pic{
+
+    height: 150px;
+    width: 300px;
+    float:right;
+    margin-right: auto;
+    position:relative;
+    top: -250px;
+    
+}
+
+.pic2{
+
+    height: 155px;
+    width:800px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.pic3{
+
+    height: 200px;
+    width:200px;
+  
+
+   
+}
+
