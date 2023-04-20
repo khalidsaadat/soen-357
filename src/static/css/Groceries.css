@@ -1,0 +1,19 @@
+.groceries-container {
+  background-color: #eddaf4; /* Lilac background color */
+  display: flex;
+}
+
+.groceries-submit-btn {
+  background-color: #15265e;
+  color: white;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.groceries-categories {
+  color: gray;
+  font-size: 1.3rem;
+}

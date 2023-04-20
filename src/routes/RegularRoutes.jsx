@@ -1,26 +1,28 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
-
 import "../static/css/login.css";
-import Home from '../pages/Home'
-import Login from '../pages/Login'
-import Navbar from '../components/shared/Navbar';
-import Signup from '../pages/Signup';
+import Home from "../pages/Home";
+import Login from "../pages/Login";
+import Navbar from "../components/shared/Navbar";
+import Signup from "../pages/Signup";
 import Profile from "../pages/Profile";
 import Track from "../pages/Track";
+import Payment from "../pages/Payment";
+import Groceries from "../pages/Groceries";
 
 function RegularRoutes() {
   return (
     <div>
-        <Navbar />  
-        <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup/>} />
-            <Route path="/profile" element={<Profile/>} />
-            <Route path="/track" element={<Track/>} />
-        </Routes>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/track" element={<Track />} />
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/groceries" element={<Groceries />} />
+      </Routes>
     </div>
   );
 }
