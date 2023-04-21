@@ -46,19 +46,16 @@ function Navbar(props) {
           ) : (
             <>
               <div>
-                <Link to="/login">Meal Plan</Link>
+                <Link to="/mealplan">Meal Plan</Link>
               </div>
-              <div>
+              {/* <div>
                 <Link to="/groceries">Grocery List</Link>
-              </div>
+              </div> */}
               <div>
-                <Link to="/login">Progress</Link>
+                <Link to="/track">Track</Link>
               </div>
               <div>
                 <Link to="/profile">Profile</Link>
-              </div>
-              <div>
-                <Link to="/track">Track</Link>
               </div>
               <div>
                 <a href="#" onClick={logout}>

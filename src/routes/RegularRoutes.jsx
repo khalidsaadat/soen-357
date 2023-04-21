@@ -9,6 +9,8 @@ import Profile from "../pages/Profile";
 import Track from "../pages/Track";
 import Payment from "../pages/Payment";
 import Groceries from "../pages/Groceries";
+import MealPlan from "../pages/MealPlan";
+import Recipe from "../pages/Recipe";
 
 function RegularRoutes() {
   return (
@@ -22,6 +24,8 @@ function RegularRoutes() {
         <Route path="/track" element={<Track />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/groceries" element={<Groceries />} />
+        <Route path="/mealplan" element={<MealPlan />} />
+        <Route path="/recipe" element={<Recipe />} />
       </Routes>
     </div>
   );
