@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js}",
+    "./src/**/*.{html,js,jsx,ts,tsx}",
     "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {},
+    colors: {
+      "light-pink": "#EDDAF4"
+    },
     container: {
       center: true,
     },
